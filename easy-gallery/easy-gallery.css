@@ -1,0 +1,26 @@
+#easy-gallery-overlay {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    background-color:#272727;
+    opacity: 0.7;
+}
+
+#easy-gallery-overlay-image-container {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+#easy-gallery-overlay-image {
+    margin-top: 10%; 
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    max-width: 100%;
+    max-height: 80%;
+}
