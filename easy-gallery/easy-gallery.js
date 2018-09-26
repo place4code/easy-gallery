@@ -4,13 +4,13 @@ jQuery.fn.easygallery = function() {
     //this = .gallery-item
     
     $(document).keydown(function(event) {
-        if (event.key == "Backspace" || event.key == "Escape") {
+        if (event.key == "Escape") {
             $("#easy-gallery-overlay").remove();
             $("#easy-gallery-overlay-image-container").remove();
         }
     });
 
-    $(this).click(function(event) { //this = .gallery-item
+    $(this).click(function(event) {
 
         event.preventDefault();
         
